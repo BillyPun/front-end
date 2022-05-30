@@ -1,0 +1,112 @@
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.App-logo{
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nav-ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: yellowgreen;
+}
+
+.nav-right {
+text-align: right;
+}
+
+.invalid-input {
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 30px;
+}
+
+.register, .dog {
+  margin-left: 40%;
+}
+
+.login {
+  margin-left: 40%;
+  margin-top: 100px;
+}
+
+.dog-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dog-list ul li {
+  display: inline-block;
+  border: 1px solid yellowgreen;
+  padding: 5px;
+  width: 200px;
+}
+
+.dog-list ul {
+  margin:0 ;
+}
+
+.search-dog-box{
+  width: 400px;
+  margin: 20px;
+  height: 40px;
+  border: 1px solid yellowgreen;
+  padding-left: 30px;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: solid yellowgreen;
+}
+
+.appButton {
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: yellowgreen;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: yellowgreen;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
